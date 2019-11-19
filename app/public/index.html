@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Birthday-Greatings!</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- jQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- Moment.js -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.16.0/moment.min.js"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+  <div class="jumbotron">
+    <h1 class="text-center">Send your greatings to your loved ones!</h1>
+  </div>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-2">
+        <h2 class="cool-font-2">Log into your account!</h2>
+        <div id="chirp-area"></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-2">
+        <p class="cool-font">UserID</p>
+        <input class="form-control" type="text" id="author" placeholder="Enter Your id">
+        <br>
+        <p class="cool-font">Password</p>
+        <input class="form-control" type="text" id="author" placeholder="Enter Your password">
+        <br>
+        <button id="chirp-submit" class="btn btn-lg pull-right">Submit!</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <a href="/RegisterNow" class="cool-font">Register Now</a>
+        <a href="/ForgetPW" class="cool-font-3">Forgot Password?</a>
+      </div>
+    </div>
+    <hr>
+
+  </div>
+
+  <style>
+    body {
+      background-image: url(https://cdn.dribbble.com/users/2206859/screenshots/4959690/confetti_lr_prev1_2.gif);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+    }
+  </style>
+
+  <script type="text/javascript" src="js/chirp.js"></script>
+</body>
+
+</html>

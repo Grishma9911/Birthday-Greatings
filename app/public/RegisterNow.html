@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Register-Birthday-Greatings!</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Moment.js -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.16.0/moment.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <h1 class="text-center">Register Here!</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-2">
+                <h2 class="cool-font-2">Enter your details!</h2>
+                <div id="chirp-area"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-2">
+                <p class="cool-font">Name</p>
+                <input class="form-control" type="text" id="author" placeholder="Enter Your Name">
+                <br>
+                <p class="cool-font">Email</p>
+                <input class="form-control" type="text" id="author" placeholder="Enter Your Email">
+                <br>
+                <p class="cool-font">Phone Number</p>
+                <input class="form-control" type="text" id="author" placeholder="Enter Your Phone Number">
+                <br>
+                <p class="cool-font">Birthdate</p>
+                <input class="form-control" type="text" id="author" placeholder="Enter Your Birthdate">
+                <br>
+                <button id="chirp-submit" class="btn btn-lg pull-right">Register!</button>
+            </div>
+        </div>
+        <hr>
+
+    </div>
+
+    <style>
+        body {
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        body::before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: url('https://previews.123rf.com/images/alexwhite/alexwhite1410/alexwhite141001269/32250992-register-now-blue-modern-web-icon-on-white-background.jpg');
+            opacity: 0.1;
+            z-index: -1;
+        }
+    </style>
+
+    <script type="text/javascript" src="js/chirp.js"></script>
+</body>
+
+</html>
