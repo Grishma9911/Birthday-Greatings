@@ -1,0 +1,12 @@
+INSERT INTO greetings VALUES ('Mother_great');
+INSERT INTO greetings VALUES ('Father_great');
+INSERT INTO greetings VALUES ('Son_great');
+INSERT INTO greetings VALUES ('Daughter_great');
+INSERT INTO greetings VALUES ('SonInLaw_great');
+INSERT INTO greetings VALUES ('DaughterInLaw_great');
+INSERT INTO greetings VALUES ('GrandMa_great');
+INSERT INTO greetings VALUES ('Wifey_great');
+INSERT INTO greetings VALUES ('Husbund_great');
+INSERT INTO greetings VALUES ('Aniversery_great');
+INSERT INTO greetings VALUES ('Girlfriend_great');
+INSERT INTO greetings VALUES ('Boyfriend_great');

@@ -1,15 +1,26 @@
 {
-  "name": "express-library",
+  "name": "birthday-greetings",
   "version": "1.0.0",
   "description": "Simple library app built with express.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Grishma Patel",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
-    "mysql": "^2.12.0"
-  }
+    "express": "^4.17.1",
+    "mysql": "^2.12.0",
+    "orm": "^5.0.5",
+    "path": "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grishma9911/Birthday-Greatings.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Grishma9911/Birthday-Greatings/issues"
+  },
+  "homepage": "https://github.com/Grishma9911/Birthday-Greatings#readme"
 }
