@@ -11,7 +11,7 @@ var connection = require("../config/connection.js");
 module.exports = function(app) {
   // Get all greatings
   app.get("/api/all", function(req, res) {
-    var dbQuery = "SELECT * FROM greetings";
+    var dbQuery = "SELECT * FROM greating";
 
     connection.query(dbQuery, function(err, result) {
       if (err) throw err;
@@ -49,7 +49,7 @@ module.exports = function(app) {
         console.log(response);
       });
 
-      
+
       res.end();
     });
   });

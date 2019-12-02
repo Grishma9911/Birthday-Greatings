@@ -22,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/Grishma9911/Birthday-Greatings/issues"
   },
-  "homepage": "https://github.com/Grishma9911/Birthday-Greatings#readme"
+  "homepage": "https://github.com/Grishma9911/Birthday-Greatings#readme",
+  "devDependencies": {}
 }
