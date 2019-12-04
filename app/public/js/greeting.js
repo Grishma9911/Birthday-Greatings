@@ -1,8 +1,8 @@
-// When user chirps (clicks addBtn)
+// When user click submit (clicks addBtn)
 $("#chirp-submit").on("click", function(event) {
   event.preventDefault();
 
-  // Make a newChirp object
+  // Make a newUser object
   var newUser = {
     uid: $("#uid").val().trim(),
     upwd: $("#upwd").val().trim()
@@ -24,8 +24,4 @@ $("#chirp-submit").on("click", function(event) {
       console.log("Inside post greeting-route");
 
     });
-
-//   // Empty each input box by replacing the value with an empty string
-//   $("#author").val("");
-//   $("#chirp-box").val("");
  });
